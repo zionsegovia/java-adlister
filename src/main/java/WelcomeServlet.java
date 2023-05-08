@@ -6,6 +6,10 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+
+
+
+
 @WebServlet("/welcome")
 public class WelcomeServlet extends HttpServlet {
 
@@ -20,6 +24,8 @@ public class WelcomeServlet extends HttpServlet {
             out.println("<h3>Tell me about your car!</h3>");
         }
     }
+
+
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
