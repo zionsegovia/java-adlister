@@ -12,15 +12,15 @@ public class Config {
     }
 
     public static String getUrl() {
-        return "jdbc:mysql://localhost:3306/bigfoot_test_db?allowPublicKeyRetrieval=true&useSSL=false";
+        return "jdbc:mysql://localhost:3306/adlister_db?allowPublicKeyRetrieval=true&useSSL=false";
     }
 
-    public String getUsername() {
-        return "codeup_test_user";
+    public static String getUsername() {
+        return "test_user";
     }
 
     public static String getPassword() {
-        return "codeup";
+        return "password";
     }
 
     public static String getUser() {
